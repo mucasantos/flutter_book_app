@@ -111,7 +111,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       Expanded(
                         child: ElevatedButton(
                           key: const ValueKey(
-                              'cadastroButton'), // Adicione uma chave aqui
+                              'cadastroButton'),
 
                           onPressed: () async {
                             //Validacao das info do form
